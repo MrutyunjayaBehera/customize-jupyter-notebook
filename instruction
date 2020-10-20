@@ -1,0 +1,28 @@
+Actually for more than 3-4 days I was searching on internet on "how to change the font of jupyter notebook", because I was trying
+to give a new look to my notebook editor.
+I tried many many many ways to customize my notebook, but I was failed.
+After trying may times I found a way to customize jupyter notebook.
+
+for those who have install jupyter notebook through Anaconda-navigator....follow this
+
+Go to this directory 
+      home/mrutyunjaya/anaconda3/lib/python3.8/site-packages/notebook/static/custom
+      open the custom.css file
+      edit whatever you want to see in your jupyter notebook
+      
+      for example :
+      I have added these 2 lines of code to the custom.css file to change my jupyter notebook font:
+      
+      .CodeMirror{
+        font-family: Serif;
+        font-size: 18px;
+      }
+      
+      Note: Save the custom.css file and reload the jupyter notebook page.
+      
+      And BOOM!!!
+      THE FONT CHANGED FROM DEFAULT FONT-FAMILY TO SERIF
+      
+      
+      
+      #Just trying to help others and get the same in return !
