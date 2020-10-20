@@ -6,7 +6,7 @@ After trying may times I found a way to customize jupyter notebook.
 for those who have install jupyter notebook through Anaconda-navigator....follow this
 
 Go to this directory 
-      home/mrutyunjaya/anaconda3/lib/python3.8/site-packages/notebook/static/custom
+      home/USERNAME/anaconda3/lib/python3.8/site-packages/notebook/static/custom  (replace "USERNAME" by your pc username)
       open the custom.css file
       edit whatever you want to see in your jupyter notebook
       
